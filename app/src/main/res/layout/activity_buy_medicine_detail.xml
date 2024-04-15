@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/maroon"
+    tools:context=".BuyMedicineDetailActivity">
+
+
+    <TextView
+        android:id="@+id/textviewbmdetailName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "YOURHEALTHMATE 24*7"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0095"
+
+        />
+
+
+    <TextView
+        android:id="@+id/textviewbmDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deliver Location: Montreal"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewbmdetailName"
+        app:layout_constraintVertical_bias="0.0199"
+        app:layout_constraintHorizontal_bias="0.497"
+
+        />
+
+
+    <TextView
+        android:id="@+id/textviewbmdetailpackagename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="600dp"
+        android:text="BUY MEDICINE"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/textviewbmDetails"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <EditText
+        android:id="@+id/edittextbmtextMultiline"
+        android:layout_width="290dp"
+        android:layout_height="372dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:gravity="start|top"
+        android:text="Hi \nHello"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textviewbmdetailpackagename"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/buttonbmAddtocart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/lightred"
+        android:text="ADD TO CART"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/buttonbmBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonbmBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/lightred"
+        android:text="BACK"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textviewbmtotalcost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/white"
+
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonbmAddtocart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edittextbmtextMultiline"
+        app:layout_constraintVertical_bias="0.51"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

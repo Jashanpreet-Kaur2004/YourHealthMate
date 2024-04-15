@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="rosewood">#65000b</color>
+    <color name="auburn">#79351F</color>
+    <color name="crimson">#E91E63</color>
+    <color name="maroon">#45071C</color>
+    <color name="maroon2">#FF45071C</color>
+    <color name="burgundy">#800020</color>
+    <color name="ruspberry">#E30b5d</color>
+    <color name="chillired">#FF2F00</color>
+    <color name="red">#Ff0000</color>
+    <color name="teal">#00E1FF</color>
+    <color name="lightred">#6E253E</color>
+    <color name="sky">#42CDCD</color>
+
+
+</resources>
